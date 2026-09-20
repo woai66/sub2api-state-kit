@@ -67,7 +67,7 @@ jobs:
         working-directory: source/backend
         env:
           GOMAXPROCS: 2
-        run: go test -p 1 ./internal/service ./internal/handler/admin ./internal/server/middleware -run 'Test.*(CodexTicket|CodexAccountTicket|OpenAICodexTicket|RedactAudit)' -count=1
+        run: go test -p 1 ./internal/service ./internal/handler/admin ./internal/server/middleware -run 'Test.*(CodexTicket|CodexAccountTicket|OpenAICodexTicket|RedactAudit|ExtractSystemMessagesFromInput|ApplyCodexOAuthTransform)' -count=1
       - name: Build embedded native binary
         working-directory: source/backend
         env:

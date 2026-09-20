@@ -91,6 +91,14 @@
       "base_sha256": null,
       "overlay_sha256": "16482a96a8bf1d511091cd210e6c1d7b1d1b1ba07a2d0991c9c3279c13f53a6a"
     },
+    "backend/internal/service/openai_codex_transform.go": {
+      "base_sha256": "a4ac19182914d6e3f89c417e5463d55483e03a9b57a6af8a5c4b39366bbd5f7e",
+      "overlay_sha256": "86122faa95bab33c768499121307261192e64fb4784803abbea75605f6c51f7c"
+    },
+    "backend/internal/service/openai_codex_transform_test.go": {
+      "base_sha256": "75084087bc134d1db273e17903d3122b869a4957c02750ac464505bc7acb904a",
+      "overlay_sha256": "a8dbd534750a726af319663622b6d26507fcdd14140019274c0a21e80bde6d2e"
+    },
     "backend/internal/service/openai_gateway_forward.go": {
       "base_sha256": "ed07b93d05c4ca5047ce316ad30107a59ba35bfcdd933a6f98e17d82909624ff",
       "overlay_sha256": "1a04998641a59ee52c4fbf2a0a4efc0d71f21a9b17796a52feeba380520b9441"
